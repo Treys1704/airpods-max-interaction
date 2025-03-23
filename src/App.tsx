@@ -58,7 +58,7 @@ const transformData = [
 ];
 
 function App() {
-    const [currentIndex, setCurrentIndex] = useState(1);
+    const [currentIndex, setCurrentIndex] = useState(0);
     const [isChanging, setIsChanging] = useState(false);
     const [isDarkMode, setIsDarkMode] = useState(false);
     const imagesRef = useRef<(HTMLImageElement | null)[]>([null, null, null]);
